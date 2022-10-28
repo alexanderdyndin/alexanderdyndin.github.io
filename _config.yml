@@ -67,7 +67,6 @@ content:
     content:
       - layout: left
         title: Edugma
-        link: github.com/Edugma/app
         additional_links:
           - title:  Github
             icon: fab fa-github
@@ -78,7 +77,6 @@ content:
       - layout: left
         title: mospolyhelper
         caption: 3000 загрузок
-        link: github.com/mospolyhelper/mospolyhelper-android
         # link_text: Project Website
         additional_links:
           - title:  Github
@@ -106,6 +104,8 @@ content:
             - работа с Camera api
             - работа с Exoplayer и HLS стримингом
             - добавил Compose в проект
+            - работа с Dagger 2
+            - работа с Rxjava
             - рефакторил архитектуру приложения
             - переписывал легаси
       - layout: left
@@ -118,8 +118,7 @@ content:
             - работа с медиа
             - переход архитектуры с MVP на MVVM
             - переход на Single Activity
-            - работа с Dagger 2
-            - работа с Rxjava
+            - работа с рекламой в приложении
             - переписывал легаси
 
   - title: Образование

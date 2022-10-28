@@ -1,0 +1,161 @@
+# Site
+repository:  alexanderdyndin/alexanderdyndin.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Дындин Александр
+title: Android Developer (2 года опыта)
+email: like81@yandex.com
+#website: www.github.com/alexanderdyndin
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  alexanderdyndin
+
+# Additional icon links
+additional_links:
+- title: telegram
+  icon: fab fa-telegram
+  url: https://telegram.me/Alexandr_dyndin
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# About Section
+about_title: Обо мне
+#about_profile_image: images/profile.jpg
+about_content: |
+    Пробовал разные направления в разработке ПО. Писал на JS, TS, C#, пробовал 1C, Python, C++, Java, после чего остановился на Kotlin и разработке под Android.
+    Люблю пробовать новые фреймворки и избавляться от легаси.
+  
+    Последние несколько лет с весны 2020 пишу на Kotlin.
+  
+
+content:
+  - title: Скиллы
+    layout: list
+    content:
+      - layout: left
+        title: Android
+        description: |
+          - UI: Jetpack Compose, Material (2), Material You (3), View Binding
+          - Изображения: Coil, Glide, Fresco
+          - Сеть: Retrofit, OkHttp, Ktor
+          - Навигация: Cicerone, Jetpack Navigation
+          - DI: Koin, Dagger 2/Hilt
+          - Сериализация: kotlinx.serialization, GSON
+          - Потоки данных: Flow + Coroutines, RxJava 2/3
+          - Хранение данных: Room, Realm, KodeinDB, GreenDAO
+          - Прочее: CameraX, Exoplayer и т.д.
+      - layout: left
+        title: Архитектура
+        description: |
+          MVI, MVVM, MVP, Clean
+      - layout: left
+        title: Инструментарий
+        description: |
+          Github, Jira, Trello, Figma
+
+
+  - title: Проекты
+    layout: list
+    content:
+      - layout: left
+        title: Edugma
+        link: github.com/Edugma/app
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/Edugma/app
+        description: |
+          Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
+      
+      - layout: left
+        title: mospolyhelper
+        caption: 3000 загрузок
+        link: github.com/mospolyhelper/mospolyhelper-android
+        # link_text: Project Website
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/mospolyhelper/mospolyhelper-android
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
+        description: |
+          Мобильное приложение для Московского Политеха.
+          Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: МТС (WASD.tv)
+        link: https://play.google.com/store/apps/details?id=ru.wasd.mobile
+        sub_title: Android Developer
+        caption: Сентябрь 2021 — нынешнее время
+        description: |
+            Приложение для просмотра стримов
+            - написание сервиса для фонового воспроизведения медиа
+            - написание продуктовых фич
+            - работа с Camera api
+            - работа с Exoplayer и HLS стримингом
+            - добавил Compose в проект
+            - рефакторил архитектуру приложения
+            - переписывал легаси
+      - layout: left
+        title: Intergroup
+        link: https://github.com/alexanderdyndin/ig-app
+        sub_title: Android Developer
+        caption: Сентябрь 2020 — Август 2021
+        description: |
+            Стартап, попытка создать социальную сеть
+            - работа с медиа
+            - переход архитектуры с MVP на MVVM
+            - переход на Single Activity
+            - работа с Dagger 2
+            - работа с Rxjava
+            - переписывал легаси
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2022 - текущее время
+        sub_title: Магистратура "Информационные системы и технологии. Мобильные технологии"
+        description: |
+          
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2018 - 2022
+        sub_title: Бакалавриат "Информационные системы и технологии"
+        description: |
+          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке. Успел поработать в разных командах (от 2 до 5 человек)
+
+      - layout: left
+        title: Серпуховский технический колледж
+        caption: 2014 - 2018
+        sub_title: Программирование в компьютерных системах
+        description: |
+          За время обучения в основном писал на C#.
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

@@ -66,6 +66,11 @@ content:
     layout: list
     content:
       - layout: left
+        title: WASD
+        link: https://play.google.com/store/apps/details?id=ru.wasd.mobile
+        description: |
+          Мобильное приложение стриминговой платформы Wasd.tv. Принимаю участие в разработке.
+      - layout: left
         title: Edugma
         additional_links:
           - title:  Github

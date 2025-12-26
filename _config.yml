@@ -37,6 +37,7 @@ about_content: |
     I have extensive experience launching features and complete products.
 
     RU:
+
     Привет! Меня зовут Александр Дындин, Android разработчик c многолетним опытом Android разработки на Kotlin. Работал как в стартапах, так и в крупных компаниях. Люблю создавать качественные, масштабируемые продукты.
     Последние несколько лет работал в крупных компаниях (таких, как Авито) в продуктах связанных с недвижимостью и геолокацией.
     Имею большой опыт как в запуске отдельных фич, так и целых продуктов.
@@ -72,10 +73,12 @@ content:
             url: https://www.rustore.ru/catalog/app/com.avito.android
         description: |
               EN:
+
               Avito is a Russian classified advertisements website with sections devoted to general goods for sale, jobs, real estate, personals, cars for sale, and services. Avito is the most popular classifieds site in Russia and is the biggest classifieds site in the world.
               Avito applications is removed from Google Play Store and App Store and now available on RuStore and other app stores on Android.
 
               RU:
+
               Авито — российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и резюме на рынке труда, а также услугах, занимающий первое место в мире среди сайтов объявлений.
 
       - layout: left
@@ -83,9 +86,11 @@ content:
         caption: 500+ thousand downloads / 500+ тысяч загрузок
         description: |
               EN:
+
               Mobile application for the WASD.tv streaming platform for gamers. Rebranded to NUUM with a shift towards short-form clips in 2023 and discounted in 2024.
 
               RU:
+
               Мобильное приложение стриминговой платформы Wasd.tv для геймеров. Было переименовано в NUUM со сменой направления на короткие клипы в 2023 году и окончательно закрыто в 2024 году.
 
       - layout: left
@@ -96,9 +101,11 @@ content:
             url: github.com/Edugma/app
         description: |
               EN:
+
               Decentralized mobile application for educational institutions. Any educational institution can connect to it by setting up their own node and implementing the required API. Currently developing the application itself + a node for Moscow Polytechnic University.
 
               RU:
+
               Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
       
       - layout: left
@@ -114,11 +121,13 @@ content:
             url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
         description: |
               EN:
+
               Mobile application for Moscow Polytechnic University.
               Android app + Asp Net Core Web Api + website on Vue.js
               Now discountied.
 
               RU:
+
               Мобильное приложение для Московского Политеха.
               Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
 
@@ -131,6 +140,7 @@ content:
         caption: January 2023 — now
         description: |
           EN:
+
           Worked 2 years in the real estate unit:
           - researched and launched a secondary real estate sales flow with a realtor on the Avito platform called "Comfortable Deal". The project was successfully launched and showed good results in conversion and deal volume (details cannot be disclosed due to NDA)
           - similarly, launched "Virtual Deal Cabinet" from scratch, creating a platform for integrating various flows such as "Comfortable Deal", "New Construction Purchase", "Mortgage Acquisition", integrating them into our product, while creating a platform for embedding and launching similar real estate-related products
@@ -142,6 +152,7 @@ content:
           Worked with MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Jetpack Compose.
 
           RU:
+
           Работал 2 года в юните недвижимости:
           - проресерчили и запустили флоу продажи вторичной недвижимости с риелтором на платформе Авито "Комфортная сделка" проект был успешно запущен и показал хорошие результаты по конверсии и количеству сделок (подробности не могу раскрыть из-за NDA)
           - аналогично, с нуля запустили "Виртуальный кабинет сделок" в рамках которого сделали платформу для интеграции различных флоу, таких как "Комфортная сделка", "Покупка новостройки", "Получение ипотеки", интегрировав их в наш продукт, попутно создав платформу для встраивания и запуска аналогичных продуктов, связанных с недвижимостью.
@@ -158,6 +169,7 @@ content:
         caption: September 2021 — December 2022
         description: |
           EN:
+
           - Implemented background media playback
           - Developed product features
             - clips
@@ -173,6 +185,7 @@ content:
           Worked with Foreground Service, MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Jetpack Compose.
 
           RU:
+
           Приложение для просмотра стримов, 500+ тысяч загрузок.
           - сделал воспроизведение медиа в фоне
           - реализовывал продуктовые фичи
@@ -196,6 +209,7 @@ content:
         caption: September 2020 — August 2021
         description: |
           EN: 
+
           Startup, an attempt to create a social network
             - implemented image and video upload and viewing in posts
             - implemented likes and comments
@@ -205,6 +219,7 @@ content:
             - refactored legacy code (migration to Single Activity, from MVP to MVVM, from Android Support Library to AndroidX)
 
           RU: 
+
           Стартап, попытка создать социальную сеть
             - сделал загрузку и просмотр картинок и видео в постах
             - реализовал лайки и комментарии
@@ -213,29 +228,29 @@ content:
             - работал с рекламой в приложении
             - рефаторил легаси код (переход на Single Activity, миграция с MVP на MVVM, миграция с Android Support Library на AndroidX)
 
-  - title: Образование
+  - title: Education / Образование
     layout: list
     content:
       - layout: left
-        title: Московский политехнический университет
-        caption: 2022 - текущее время
-        sub_title: Магистратура "Информационные системы и технологии. Мобильные технологии"
+        title: Moscow Polytechnic University
+        caption: 2022 - present
+        sub_title: Master's Degree "Information Systems and Technologies. Mobile Technologies"
         description: |
-           В данный момент учусь и параллельно работаю.
+          Currently studying while working in parallel.
           
       - layout: left
-        title: Московский политехнический университет
+        title: Moscow Polytechnic University
         caption: 2018 - 2022
-        sub_title: Бакалавриат "Информационные системы и технологии"
+        sub_title: Bachelor's Degree "Information Systems and Technologies"
         description: |
-          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке. Успел поработать в разных командах (от 2 до 5 человек)
+          During my studies, I tried many different directions and programming languages before finding my passion in mobile development. I worked in various teams (ranging from 2 to 5 people).
 
       - layout: left
-        title: Серпуховский технический колледж
+        title: Serpukhov Technical College
         caption: 2014 - 2018
-        sub_title: Программирование в компьютерных системах
+        sub_title: Computer Systems Programming
         description: |
-          За время обучения в основном писал на C#.
+          During my studies, I primarily worked with C#.
 
 
 # Footer

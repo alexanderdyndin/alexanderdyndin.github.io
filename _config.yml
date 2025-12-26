@@ -32,15 +32,15 @@ about_title: About me / Обо мне
 about_content: |
     EN:
 
-    Hi! I'm Aleksandr Dyndin, an Android Developer with expertise in Kotlin and modern Android development. I've worked in various team environments, from startups to established companies. I also enjoy building robust, scalable applications.
-    In the last few years, I have been working in big tech (Avito LLC), focusing on real estate and geo units.
-    I have extensive experience launching features and complete products.
+      Hi! I'm Aleksandr Dyndin, an Android Developer with expertise in Kotlin and modern Android development. I've worked in various team environments, from startups to established companies. I also enjoy building robust, scalable applications.
+      In the last few years, I have been working in big tech (Avito LLC), focusing on real estate and geo units.
+      I have extensive experience launching features and complete products.
 
     RU:
 
-    Привет! Меня зовут Александр Дындин, Android разработчик c многолетним опытом Android разработки на Kotlin. Работал как в стартапах, так и в крупных компаниях. Люблю создавать качественные, масштабируемые продукты.
-    Последние несколько лет работал в крупных компаниях (таких, как Авито) в продуктах связанных с недвижимостью и геолокацией.
-    Имею большой опыт как в запуске отдельных фич, так и целых продуктов.
+      Привет! Меня зовут Александр Дындин, Android разработчик c многолетним опытом Android разработки на Kotlin. Работал как в стартапах, так и в крупных компаниях. Люблю создавать качественные, масштабируемые продукты.
+      Последние несколько лет работал в крупных компаниях (таких, как Авито) в продуктах связанных с недвижимостью и геолокацией.
+      Имею большой опыт как в запуске отдельных фич, так и целых продуктов.
   
 
 content:
@@ -74,12 +74,12 @@ content:
         description: |
               EN:
 
-              Avito is a Russian classified advertisements website with sections devoted to general goods for sale, jobs, real estate, personals, cars for sale, and services. Avito is the most popular classifieds site in Russia and is the biggest classifieds site in the world.
-              Avito applications is removed from Google Play Store and App Store and now available on RuStore and other app stores on Android.
+                Avito is a Russian classified advertisements website with sections devoted to general goods for sale, jobs, real estate, personals, cars for sale, and services. Avito is the most popular classifieds site in Russia and is the biggest classifieds site in the world.
+                Avito applications is removed from Google Play Store and App Store and now available on RuStore and other app stores on Android.
 
               RU:
 
-              Авито — российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и резюме на рынке труда, а также услугах, занимающий первое место в мире среди сайтов объявлений.
+                Авито — российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и резюме на рынке труда, а также услугах, занимающий первое место в мире среди сайтов объявлений.
 
       - layout: left
         title: WASD
@@ -87,11 +87,11 @@ content:
         description: |
               EN:
 
-              Mobile application for the WASD.tv streaming platform for gamers. Rebranded to NUUM with a shift towards short-form clips in 2023 and discounted in 2024.
+                Mobile application for the WASD.tv streaming platform for gamers. Rebranded to NUUM with a shift towards short-form clips in 2023 and discounted in 2024.
 
               RU:
 
-              Мобильное приложение стриминговой платформы Wasd.tv для геймеров. Было переименовано в NUUM со сменой направления на короткие клипы в 2023 году и окончательно закрыто в 2024 году.
+                Мобильное приложение стриминговой платформы Wasd.tv для геймеров. Было переименовано в NUUM со сменой направления на короткие клипы в 2023 году и окончательно закрыто в 2024 году.
 
       - layout: left
         title: Edugma
@@ -102,11 +102,11 @@ content:
         description: |
               EN:
 
-              Decentralized mobile application for educational institutions. Any educational institution can connect to it by setting up their own node and implementing the required API. Currently developing the application itself + a node for Moscow Polytechnic University.
+                Decentralized mobile application for educational institutions. Any educational institution can connect to it by setting up their own node and implementing the required API. Currently developing the application itself + a node for Moscow Polytechnic University.
 
               RU:
 
-              Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
+                Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
       
       - layout: left
         title: mospolyhelper
@@ -122,14 +122,14 @@ content:
         description: |
               EN:
 
-              Mobile application for Moscow Polytechnic University.
-              Android app + Asp Net Core Web Api + website on Vue.js
-              Now discountied.
+                Mobile application for Moscow Polytechnic University.
+                Android app + Asp Net Core Web Api + website on Vue.js
+                Now discountied.
 
               RU:
 
-              Мобильное приложение для Московского Политеха.
-              Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+                Мобильное приложение для Московского Политеха.
+                Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
 
   - title: Working Experience / Опыт работы
     layout: list

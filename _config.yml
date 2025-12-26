@@ -235,16 +235,39 @@ content:
         title: Moscow Polytechnic University / Московский Политехнический Университет
         caption: 2022 - 2024
         sub_title: Master's Degree "Information Systems and Technologies. Mobile Technologies" / Магистратура "Информационные системы и технологии. Мобильные технологии"
-          
+        description: |
+          EN:
+
+          Got specialized education in mobile development.
+
+          RU:
+
+          Получил профильное образование по специальности, связанной с мобильной разработкой.        
       - layout: left
         title: Moscow Polytechnic University / Московский Политехнический Университет
         caption: 2018 - 2022
         sub_title: Bachelor's Degree "Information Systems and Technologies" / Бакалавриат "Информационные системы и технологии"
+        description: |
+          EN:
+
+          During my studies, I tried many different directions and programming languages before finding my passion in mobile development.
+
+          RU:
+
+          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке.
 
       - layout: left
         title: Serpukhov Technical College / Серпуховский Технический Колледж
         caption: 2014 - 2018
         sub_title: Computer Systems Programming / Программирование в компьютерных системах
+        description: |
+          EN:
+
+          During my studies, I primarily worked with C#.
+
+          RU:
+
+          За время обучения, в основном, писал на C#.
 
 
 # Footer

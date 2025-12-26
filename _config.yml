@@ -6,13 +6,13 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Дындин Александр
-title: Android Developer (2 года опыта)
-email: like81@yandex.com
+name: Dyndin Aleksandr / Дындин Александр
+title: Android Developer
+email: dyndinalexandr13@gmail.com
 #website: www.github.com/alexanderdyndin
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 github_username:  alexanderdyndin
@@ -27,52 +27,67 @@ additional_links:
 #   url: Link url (eg. https://google.com)
 
 # About Section
-about_title: Обо мне
+about_title: About me / Обо мне
 #about_profile_image: images/profile.jpg
 about_content: |
-    Пробовал разные направления в разработке ПО. Писал на JS, TS, C#, пробовал 1C, Python, C++, Java, после чего остановился на Kotlin и разработке под Android.
-    Люблю пробовать новые фреймворки и избавляться от легаси.
-  
-    Последние несколько лет с весны 2020 пишу на Kotlin.
+    EN:
+
+    Hi! I'm Aleksandr Dyndin, an Android Developer with expertise in Kotlin and modern Android development. I've worked in various team environments, from startups to established companies. I also enjoy building robust, scalable applications.
+    In the last few years, I have been working in big tech (Avito LLC), focusing on real estate and geo units.
+    I have extensive experience launching features and complete products.
+
+    RU:
+    Привет! Меня зовут Александр Дындин, Android разработчик c многолетним опытом Android разработки на Kotlin. Работал как в стартапах, так и в крупных компаниях. Люблю создавать качественные, масштабируемые продукты.
+    Последние несколько лет работал в крупных компаниях (таких, как Авито) в продуктах связанных с недвижимостью и геолокацией.
+    Имею большой опыт как в запуске отдельных фич, так и целых продуктов.
   
 
 content:
-  - title: Скиллы
+  - title: Skills / Скиллы
     layout: list
     content:
       - layout: left
         title: Android
         description: |
-          - UI: Jetpack Compose, Material (2), Material You (3), View Binding
-          - Изображения: Coil, Glide, Fresco
-          - Сеть: Retrofit, OkHttp, Ktor
-          - Навигация: Cicerone, Jetpack Navigation
-          - DI: Koin, Dagger 2/Hilt
-          - Сериализация: kotlinx.serialization, GSON
-          - Потоки данных: Flow + Coroutines, RxJava 2/3
-          - Хранение данных: Room, Realm, KodeinDB, GreenDAO
-          - Прочее: CameraX, Exoplayer и т.д.
+          - UI: Compose (Jetpack/Multiplatform), Android View
+          - Network: Rest, Websockets
+          - DI: Koin, Dagger 2 (pure Dagger 2, Hilt, Anvil)
+          - Async: Coroutines, RxJava
+          - Other: HLS Video Streaming (Exoplayer), CameraX
       - layout: left
-        title: Архитектура
+        title: Instruments / Инструменты
         description: |
-          MVI, MVVM, MVP, Clean
-      - layout: left
-        title: Инструментарий
-        description: |
-          Github, Jira, Trello, Figma
+          Android Studio, Git (Github, Bitbucket, Gitlab), Jira, Confluence, Firebase, Google Play Console, Figma, Miro
 
 
-  - title: Проекты
+  - title: Projects / Проекты
     layout: list
     content:
       - layout: left
-        title: WASD
+        title: Avito
+        caption: 100+ million downloads across all Android app stores / 100+ миллионов загрузок во всех магазинах Android приложений
+        link_text: https://www.avito.ru/
         additional_links:
-          - title:  Google Play
-            icon: fab fa-google-play
-            url: https://play.google.com/store/apps/details?id=ru.wasd.mobile
+          - title:  RuStore
+            url: https://www.rustore.ru/catalog/app/com.avito.android
         description: |
-          Мобильное приложение стриминговой платформы Wasd.tv. Принимаю участие в разработке.
+              EN:
+              Avito is a Russian classified advertisements website with sections devoted to general goods for sale, jobs, real estate, personals, cars for sale, and services. Avito is the most popular classifieds site in Russia and is the biggest classifieds site in the world.
+              Avito applications is removed from Google Play Store and App Store and now available on RuStore and other app stores on Android.
+
+              RU:
+              Авито — российский интернет-сервис для размещения объявлений о товарах, недвижимости, вакансиях и резюме на рынке труда, а также услугах, занимающий первое место в мире среди сайтов объявлений.
+
+      - layout: left
+        title: WASD
+        caption: 500+ thousand downloads / 500+ тысяч загрузок
+        description: |
+              EN:
+              Mobile application for the WASD.tv streaming platform for gamers. Rebranded to NUUM with a shift towards short-form clips in 2023 and discounted in 2024.
+
+              RU:
+              Мобильное приложение стриминговой платформы Wasd.tv для геймеров. Было переименовано в NUUM со сменой направления на короткие клипы в 2023 году и окончательно закрыто в 2024 году.
+
       - layout: left
         title: Edugma
         additional_links:
@@ -80,11 +95,15 @@ content:
             icon: fab fa-github
             url: github.com/Edugma/app
         description: |
-          Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
+              EN:
+              Decentralized mobile application for educational institutions. Any educational institution can connect to it by setting up their own node and implementing the required API. Currently developing the application itself + a node for Moscow Polytechnic University.
+
+              RU:
+              Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. В процессе разработки само приложение + узел для Московского Политеха.
       
       - layout: left
         title: mospolyhelper
-        caption: 3000 загрузок
+        caption: 3000+ downloads
         # link_text: Project Website
         additional_links:
           - title:  Github
@@ -94,40 +113,105 @@ content:
             icon: fab fa-google-play
             url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
         description: |
-          Мобильное приложение для Московского Политеха.
-          Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+              EN:
+              Mobile application for Moscow Polytechnic University.
+              Android app + Asp Net Core Web Api + website on Vue.js
+              Now discountied.
 
-  - title: Опыт работы
+              RU:
+              Мобильное приложение для Московского Политеха.
+              Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+
+  - title: Working Experience / Опыт работы
     layout: list
     content:
       - layout: left
-        title: МТС (WASD.tv)
-        link: https://play.google.com/store/apps/details?id=ru.wasd.mobile
-        sub_title: Android Developer
-        caption: Сентябрь 2021 — нынешнее время
+        title: Avito
+        sub_title: Senior Android Developer
+        caption: January 2023 — now
         description: |
-            Приложение для просмотра стримов
-            - написание сервиса для фонового воспроизведения медиа
-            - написание продуктовых фич
-            - работа с Camera api
-            - работа с Exoplayer и HLS стримингом
-            - добавил Compose в проект
-            - работа с Dagger 2
-            - работа с Rxjava
-            - рефакторил архитектуру приложения
-            - переписывал легаси
+          EN:
+          Worked 2 years in the real estate unit:
+          - researched and launched a secondary real estate sales flow with a realtor on the Avito platform called "Comfortable Deal". The project was successfully launched and showed good results in conversion and deal volume (details cannot be disclosed due to NDA)
+          - similarly, launched "Virtual Deal Cabinet" from scratch, creating a platform for integrating various flows such as "Comfortable Deal", "New Construction Purchase", "Mortgage Acquisition", integrating them into our product, while creating a platform for embedding and launching similar real estate-related products
+          - maintained and developed the main Avito application, making improvements to the design system, various common and architectural components
+          - actively engaged in T-shaping, taking on iOS and Backend development tasks
+
+          Then, moved to the geo unit:
+          - launched multiple A/B experiments related to user addresses
+          Worked with MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Jetpack Compose.
+
+          RU:
+          Работал 2 года в юните недвижимости:
+          - проресерчили и запустили флоу продажи вторичной недвижимости с риелтором на платформе Авито "Комфортная сделка" проект был успешно запущен и показал хорошие результаты по конверсии и количеству сделок (подробности не могу раскрыть из-за NDA)
+          - аналогично, с нуля запустили "Виртуальный кабинет сделок" в рамках которого сделали платформу для интеграции различных флоу, таких как "Комфортная сделка", "Покупка новостройки", "Получение ипотеки", интегрировав их в наш продукт, попутно создав платформу для встраивания и запуска аналогичных продуктов, связанных с недвижимостью.
+          - поддерживал и развивал основное приложение Авито, внося улучшения в дизайн систему, различные общие и архитектурные компоненты
+          - активно занимался T-shaping'ом, забирая задачи на разработку iOS и Backend
+
+          Далее, перешел в юнит гео:
+          - запустили множество аб экспериментов связанных с пользовательскими адресами
+          Работал с MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Jetpack Compose.
+
+      - layout: left
+        title: MTS (WASD.tv)
+        sub_title: Android Developer
+        caption: September 2021 — December 2022
+        description: |
+          EN:
+          - Implemented background media playback
+          - Developed product features
+            - clips
+            - favorites
+            - authentication
+            - feed
+            - post creation
+            - in-app advertising
+          - Provided support
+            - bug fixes
+            - refactored legacy code (migration to Single Activity, MVP to MVI, etc)
+            - maintained codebase
+          Worked with Foreground Service, MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Jetpack Compose.
+
+          RU:
+          Приложение для просмотра стримов, 500+ тысяч загрузок.
+          - сделал воспроизведение медиа в фоне
+          - реализовывал продуктовые фичи
+            - клипы
+            - избранное
+            - авторизация
+            - лента постов
+            - создание постов
+            - работал с рекламой в приложении
+          - осуществлял поддержку
+            - фиксил баги
+            - рефаторил легаси код (переход на Single Activity, с MVP на MVI)
+            - поддерживал кодовую базу в актуальном состоянии
+            - занимался оптимизацией скорости сборки проекта
+          Работал с Foreground Service, MediaSession, Exoplayer (HLS Streaming), Coroutines, Dagger 2, Retrofit, Websockets, Firebase Analytics, RxJava, Coroutines, Jetpack Compose.
+
       - layout: left
         title: Intergroup
         link: https://github.com/alexanderdyndin/ig-app
         sub_title: Android Developer
-        caption: Сентябрь 2020 — Август 2021
+        caption: September 2020 — August 2021
         description: |
-            Стартап, попытка создать социальную сеть
-            - работа с медиа
-            - переход архитектуры с MVP на MVVM
-            - переход на Single Activity
-            - работа с рекламой в приложении
-            - переписывал легаси
+          EN: 
+          Startup, an attempt to create a social network
+            - implemented image and video upload and viewing in posts
+            - implemented likes and comments
+            - implemented post feed
+            - implemented authentication and registration
+            - worked with in-app advertising
+            - refactored legacy code (migration to Single Activity, from MVP to MVVM, from Android Support Library to AndroidX)
+
+          RU: 
+          Стартап, попытка создать социальную сеть
+            - сделал загрузку и просмотр картинок и видео в постах
+            - реализовал лайки и комментарии
+            - реализовал ленту постов
+            - реализовал авторизацию и регистрацию
+            - работал с рекламой в приложении
+            - рефаторил легаси код (переход на Single Activity, миграция с MVP на MVVM, миграция с Android Support Library на AndroidX)
 
   - title: Образование
     layout: list

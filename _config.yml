@@ -70,6 +70,7 @@ content:
         link_text: https://www.avito.ru/
         additional_links:
           - title:  RuStore
+            icon: fab fa-app-store
             url: https://www.rustore.ru/catalog/app/com.avito.android
         description: |
               EN:
